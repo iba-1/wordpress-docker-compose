@@ -1,1 +1,5 @@
 .env
+wp-includes/
+wp-content/uploads/
+wp-admin/
+wp-data/

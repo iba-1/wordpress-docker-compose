@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 services:
   wp:
@@ -6,6 +6,7 @@ services:
     ports:
       - ${IP}:${PORT}:80 # change ip if required
     volumes:
+      # - ./config/php:/usr/local/etc/php
       - ./config/wp_php.ini:/usr/local/etc/php/conf.d/conf.ini
       - ./wp-app:/var/www/html # Full wordpress project
       #- ./plugin-name/trunk/:/var/www/html/wp-content/plugins/plugin-name # Plugin development
@@ -15,6 +16,7 @@ services:
       WORDPRESS_DB_NAME: "${DB_NAME}"
       WORDPRESS_DB_USER: root
       WORDPRESS_DB_PASSWORD: "${DB_ROOT_PASSWORD}"
+      WORDPRESS_DEBUG: true
     depends_on:
       - db
     links:
@@ -35,7 +37,7 @@ services:
       - wp
 
   pma:
-    image: phpmyadmin:latest  # https://hub.docker.com/_/phpmyadmin
+    image: phpmyadmin:latest # https://hub.docker.com/_/phpmyadmin
     environment:
       # https://docs.phpmyadmin.net/en/latest/setup.html#docker-environment-variables
       PMA_HOST: db
@@ -47,19 +49,20 @@ services:
     links:
       - db:db
     volumes:
-     - ./config/pma_php.ini:/usr/local/etc/php/conf.d/conf.ini
-     - ./config/pma_config.php:/etc/phpmyadmin/config.user.inc.php
+      - ./config/pma_php.ini:/usr/local/etc/php/conf.d/conf.ini
+      - ./config/pma_config.php:/etc/phpmyadmin/config.user.inc.php
 
   db:
     image: mysql:latest # https://hub.docker.com/_/mysql/ - or mariadb https://hub.docker.com/_/mariadb
     # platform: linux/x86_64  # Uncomment if your machine is running on arm (ex: Apple Silicon processor)
     ports:
       - ${IP}:3306:3306 # change ip if required
-    command: [
-        '--default_authentication_plugin=mysql_native_password',
-        '--character-set-server=utf8mb4',
-        '--collation-server=utf8mb4_unicode_ci'
-    ]
+    command:
+      [
+        "--default_authentication_plugin=mysql_native_password",
+        "--character-set-server=utf8mb4",
+        "--collation-server=utf8mb4_unicode_ci",
+      ]
     volumes:
       - ./wp-data:/docker-entrypoint-initdb.d
       - db_data:/var/lib/mysql

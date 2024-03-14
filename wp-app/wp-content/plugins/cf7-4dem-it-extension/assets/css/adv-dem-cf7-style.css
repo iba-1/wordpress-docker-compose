@@ -1,0 +1,121 @@
+.adv-dem-main-fields .cf7-adv-dem-description {
+    display: block;
+    color: #777;
+    padding-left: 0.7em;
+}
+
+.adv-dem-custom-fields .col-6 {
+    display: inline-block;
+    width: 49.3%;
+    margin-bottom: 0.6rem;
+}
+
+.adv-dem-custom-fields .col-6 input {
+    max-width: 95%;
+}
+
+.cf7-adv-dem-support {
+    color: #222;
+    background: #f7f7f7;
+    -webkit-box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba(0, 0, 0, .08);
+    box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba(0, 0, 0, .08);
+    vertical-align: top;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul#contact-form-editor-tabs>li a:focus,
+.cf7-adv-dem-support:focus,
+a.helping-field {
+    outline: none;
+    box-shadow: none;
+}
+
+.cf7-adv-dem-support:focus {
+    color: #0073aa;
+}
+
+.cf7-adv-dem-support:after {
+    right: 0;
+    content: '\f333';
+    font: 400 20px/1 dashicons;
+    display: inline-block;
+    padding: 3px 0 0 5px;
+    bottom: 2px;
+    position: relative;
+    vertical-align: bottom;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+    color: #0073aa;
+}
+
+div#adv-dem-Extension {
+    background: url('http://www.4Dem.it/wp-content/uploads/ecplus/images/logo_4Dem_plugin.png') right bottom no-repeat;
+}
+
+.cf7-adv-dem-mail-field input {
+    max-width: 100%;
+}
+
+.cf7-adv-dem-description p {
+    font-size: 12px !important;
+    line-height: 1.25em !important;
+    margin-top: 0 !important;
+    font-style: italic !important;
+}
+
+.cf7-adv-dem-advanced-fields {
+    border-top: 1px solid rgba(0, 0, 0, 0);
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.p-author {
+    font-size: 12px;
+    color: #555;
+    opacity: .9;
+}
+
+span.valid {
+    background-color: #7ad03a;
+    color: #fff;
+}
+
+span.invalid {
+    background-color: #dd3d36;
+    color: #fff;
+}
+
+#wpcf7-adv-dem-list {
+    width: 100%;
+    max-width: 460px;
+}
+
+div#adv-dem-Extension {
+    padding-bottom: 46px!important;
+}
+
+p.list-error-msg.adv-msg {
+    color: #dd3d36;
+}
+
+p.list-success-msg.adv-msg {
+    color: #46b450;
+}

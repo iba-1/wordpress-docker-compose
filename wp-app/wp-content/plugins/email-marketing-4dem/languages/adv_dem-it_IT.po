@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2017-03-07 14:43+0000\n"
+"Language: it-IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"PO-Revision-Date: 2017-03-07 14:47+0000\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Project-Id-Version: 4Dem Wordpress Integration\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: sviluppo <sviluppo@4marketing.it>\n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: includes/class-adv_dem-widget.php:22
+msgid "Permette ai visitatori di iscriversi alla newsletter."
+msgstr "Permette ai visitatori di iscriversi alla newsletter."
+
+#: includes/class-adv_dem-widget.php:62
+msgid "Inserisci un indirizzo email valido."
+msgstr "Inserisci un indirizzo email valido."
+
+#: includes/class-adv_dem-widget.php:80
+msgid "Iscrizione avvenuta con successo."
+msgstr "Iscrizione avvenuta con successo."
+
+#: includes/class-adv_dem-widget.php:83
+msgid "Indirizzo email già registrato."
+msgstr "Indirizzo email già registrato."
+
+#: includes/class-adv_dem-widget.php:110
+msgid "Iscriviti alla newsletter"
+msgstr "Iscriviti alla newsletter"
+
+#: includes/class-adv_dem-widget.php:139
+msgid "Lista di destinazione"
+msgstr "Lista di destinazione"
+
+#: includes/class-adv_dem-widget.php:141
+msgid "NESSUNA LISTA SELEZIONATA"
+msgstr "NESSUNA LISTA SELEZIONATA"
+
+#: includes/class-adv_dem-widget.php:168
+msgid "Configura la tua Apikey!"
+msgstr "Configura la tua Apikey!"
+
+#: includes/class-adv_dem-widget.php:169
+msgid ""
+"Prima di poter procedere con la configurazione del widget devi configurare "
+"correttamente il plugin di 4Dem."
+msgstr ""
+"Prima di poter procedere con la configurazione del widget devi configurare "
+"correttamente il plugin di 4Dem."
+
+#: includes/class-adv_dem-widget.php:187
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-adv_dem-widget.php:188
+msgid "Iscriviti"
+msgstr "Iscriviti"
+
+#. Name of the plugin
+msgid "4Dem Wordpress Integration"
+msgstr "4Dem Wordpress Integration"
+
+#. Description of the plugin
+msgid ""
+"Questo plugin permette di integrare Wordpress con la console di 4Dem. "
+"Qualora disponibili vengono abilitate le funzioni estese per la "
+"sincronizzazione degli utenti Woocommerce e l'integrazione dei servizi di E-"
+"commerce Plus."
+msgstr ""
+"Questo plugin permette di integrare Wordpress con la console di 4Dem. "
+"Qualora disponibili vengono abilitate le funzioni estese per la "
+"sincronizzazione degli utenti Woocommerce e l'integrazione dei servizi di E-"
+"commerce Plus."
+
+#. URI of the plugin
+msgid "www.4dem.it"
+msgstr "www.4dem.it"
+
+#. Author of the plugin
+msgid "4marketing.it"
+msgstr "4marketing.it"
+
+#. Author URI of the plugin
+msgid "www.4marketing.it"
+msgstr "www.4marketing.it"

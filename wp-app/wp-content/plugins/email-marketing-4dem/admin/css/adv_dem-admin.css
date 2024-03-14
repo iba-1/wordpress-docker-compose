@@ -1,0 +1,371 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.adv_wrapper h1 .dashicons,
+.adv_wrapper_table h1 .dashicons {
+    vertical-align: baseline;
+}
+
+.adv_wrapper label {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.adv_success {
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.adv_allert {
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #FF9800;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.adv_error {
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #D32228;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.adv_api_success {
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.adv_api_error {
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: #D32228;
+    color: #fff;
+}
+
+.adv_error {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #D32228;
+    color: #fff;
+}
+
+.adv_wrapper table {
+    width: 100%;
+    max-width: 800px;
+}
+
+.adv_wrapper th,
+.adv_wrapper td {
+    /*width: 50%;*/
+    text-align: left;
+}
+
+.adv_wrapper th select,
+.adv_wrapper th input {
+    /*width: 50%;*/
+    font-weight: normal;
+}
+
+.adv_wrapper th:nth-child(odd) {
+    width: 55%;
+    text-align: left;
+}
+
+.adv_wrapper input:not([type="submit"]),
+.adv_wrapper select {
+    width: 100%;
+}
+
+.adv_wrapper input[type="checkbox"] {
+    width: inherit!important;
+}
+
+.adv_section {
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 5px solid #dedede;
+    padding-bottom: 32px;
+}
+
+.adv_dem_logo {
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 100px;
+}
+
+#progress-container {
+    background-color: #fff;
+    display: none;
+    position: fixed;
+    width: 50%;
+    bottom: 0;
+    right: 20px;
+    z-index: 100;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+#progressbar {
+    height: 25px;
+    width: 100%;
+}
+
+#innerbar {
+    background-color: #4CAF50;
+    height: 25px;
+    width: 0px;
+    display: none;
+    /*-webkit-transition: all 50s;
+    -moz-transition: all 50s;
+    -o-transition: all 50s;
+    transition: all 50s;*/
+}
+
+#batch-finish {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.toggle {
+    display: inline-block;
+    vertical-align: text-top;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*.successModal {
+    display: block;
+    position: fixed;
+    top: 45%;
+    left: 25%;
+    width: 300px;
+    height: auto;
+    padding: 5px 20px;
+    border: 3px solid green;
+    background-color: #EFE;
+    z-index:1002;
+    overflow: auto;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-box-shadow: 5px 5px 10px #cfcfcf;
+    -webkit-box-shadow: 5px 5px 10px #cfcfcf;
+}*/
+
+.table-batch-delete span:hover {
+    color: #D32228;
+    cursor: pointer;
+}
+
+.batch-segment {
+    border: 1px solid #dedede;
+    background-color: #efefef;
+    height: 25px;
+    /*border-left:1px solid #dedede;*/
+    display: inline-block;
+    -webkit-transition: all 1.4s;
+    -moz-transition: all 1.4s;
+    -o-transition: all 1.4s;
+    transition: all 1.4s;
+}
+
+.segment-done {
+    background-color: #4CAF50;
+    -webkit-transition: all 1.4s;
+    -moz-transition: all 1.4s;
+    -o-transition: all 1.4s;
+    transition: all 1.4s;
+}
+
+p#batch-loader {
+    margin-top: 0px;
+    margin-left: 5px;
+    height: 0px;
+}
+
+.allert-box {
+    border: 1px solid #FF9800;
+    background-color: #efefef;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#configuration-form-error {
+    text-align: center;
+}
+
+.tooltip_information_text {
+    left: 0;
+    display: none;
+    position: absolute;
+    background-color: #efefef;
+    color: #000;
+    border: 1px solid #707070;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+    line-height: initial;
+    max-width: 500px;
+    z-index: 100;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.tooltip_information:hover {
+    cursor: pointer;
+    color: #707070;
+}
+
+.tooltip_information {
+    font-size: 16px;
+    float: right;
+}
+
+.col_batch_Status.column-col_batch_Status {
+    position: relative;
+    overflow: visible!important;
+}
+
+#progress-close {
+    display: none;
+    text-align: right;
+}
+
+.progress-close-icon {
+    cursor: pointer;
+    color: #D32228;
+}
+
+.adv_wrapper button.button-primary,
+.adv_wrapper input#submit,
+.adv_wrapper input#import_csv_button {
+    min-width: 216px;
+}
+
+.attribute-error-message {
+    left: 0;
+    position: absolute;
+    display: none;
+    font-weight: bold;
+    background-color: #efefef;
+    color: #D32228;
+    border: 1px solid #707070;
+    padding: 15px;
+    z-index: 100;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+#congratulation {
+    position: absolute;
+    top: -38px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 32px;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+span#list-name {
+    display: inline-block;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    box-shadow: 4px 4px 4px 0 #ccc;
+}
+
+#congratulation-image {
+    /* background-image: url(../images/congratulation.gif); */
+    display: inline-block;
+    background-size: contain;
+    background-position: top center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+th#adv_dem_primary_category_column {
+    width: 100px;
+}
+
+th#adv_dem_primary_category_column_mid {
+    width: 100px;
+}
+
+th#adv_dem_primary_category_column_top {
+    width: 100px;
+}
+
+@media screen and (max-width: 1442px) {
+    th#adv_dem_primary_category_column {
+        width: 12%;
+    }
+    th#adv_dem_primary_category_column_mid {
+        width: 12%;
+    }
+    th#adv_dem_primary_category_column_top {
+        width: 12%;
+    }
+}
+
+@media screen and (min-width: 782px) {
+    td.col_batch_Actions.column-col_batch_Actions {
+        text-align: center;
+    }
+    th#col_batch_Actions {
+        width: 50px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .adv_wrapper th,
+    .adv_wrapper table,
+    .adv_wrapper tbody,
+    .adv_wrapper td {
+        display: block;
+    }
+    .adv_wrapper tr {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .adv_wrapper th,
+    .adv_wrapper td {
+        width: 100%!important;
+    }
+    .adv_wrapper input,
+    .adv_wrapper select,
+    .adv_wrapper button.button-primary {
+        width: 100%;
+        font-size: 12px!important;
+    }
+    #progress-container {
+        width: 86%;
+        right: inherit;
+    }
+}

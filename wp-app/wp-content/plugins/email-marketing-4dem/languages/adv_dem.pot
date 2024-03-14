@@ -1,0 +1,94 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2017-03-07 14:56+0000\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: includes/class-adv_dem-widget.php:22
+msgid "Permette ai visitatori di iscriversi alla newsletter."
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:62
+msgid "Inserisci un indirizzo email valido."
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:80
+msgid "Iscrizione avvenuta con successo."
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:83
+msgid "Indirizzo email già registrato."
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:110
+msgid "Iscriviti alla newsletter"
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:139
+msgid "Lista di destinazione"
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:141
+msgid "NESSUNA LISTA SELEZIONATA"
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:150
+msgid "Titolo"
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:154
+msgid "Label E-mail"
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:158
+msgid "Testo descrittivo"
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:162
+msgid "Testo pulsante"
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:168
+msgid "Configura la tua Apikey!"
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:169
+msgid ""
+"Prima di poter procedere con la configurazione del widget devi configurare "
+"correttamente il plugin di 4Dem."
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:187
+msgid "Email"
+msgstr ""
+
+#: includes/class-adv_dem-widget.php:188
+msgid "Iscriviti"
+msgstr ""
+
+#. Name of the plugin
+msgid "4Dem Wordpress Integration"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Questo plugin permette di integrare Wordpress con la console di 4Dem. "
+"Qualora disponibili vengono abilitate le funzioni estese per la "
+"sincronizzazione degli utenti Woocommerce e l'integrazione dei servizi di E-"
+"commerce Plus."
+msgstr ""
+
+#. URI of the plugin
+msgid "www.4dem.it"
+msgstr ""
+
+#. Author of the plugin
+msgid "4marketing.it"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "www.4marketing.it"
+msgstr ""
